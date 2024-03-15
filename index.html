@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="navbar__wrapper">
+                <a href="#" class="logo">
+                    <img src="./assets/icons/logo.svg" alt="logo">
+                </a>
+
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <div class="dropdown">
+                            <button class="navbar__item-btn" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Home
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbar__item">
+                        <div class="dropdown">
+                            <button class="navbar__item-btn" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Service
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbar__item">
+                        <div class="dropdown">
+                            <button class="navbar__item-btn" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Works
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbar__item">
+                        <div class="dropdown">
+                            <button class="navbar__item-btn" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                News
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbar__item">
+                        <div class="dropdown">
+                            <button class="navbar__item-btn" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Contact
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="signin">Log In</a>
+                        <a href="#" class="signup">
+                            <span>Sign Up</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="authentication__btns">
+                    <a href="#" class="signin">Log In</a>
+                    <a href="#" class="signup">
+                        <span>Sign Up</span>
+                    </a>
+
+                </div>
+                <div class="bars__btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero section -->
+        <section class="hero">
+
+            <img src="./assets/images/hero__bg-vector.svg" alt="" class="vector_bg">
+            <img src="./assets/images/hero__bg-vector-yellow-line.svg" alt="" class="vector_line-bg">
+
+            <div class="container">
+                <div class="hero__wrapper">
+                    <div class="hero__content">
+                        <h2>Bootstrap 5 theme</h2>
+                        <h3>crafted by <span>ThemeWagon</span></h3>
+
+                        <p>ThemeWagon offers an wide array of category-oriented
+                            Free and Premium Bootstrap HTML Templates and Themes. </p>
+
+                        <a href="#" class="btn__primary">Check Demo</a>
+                    </div>
+                    <div class="hero__image">
+                        <img src="./assets/images/hero__image.svg" alt="hero image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of Hero section -->
+
+        <!-- Client section -->
+        <section class="client">
+            <div class="container">
+                <div class="line">
+
+                    <img src="./assets/icons/line.svg" alt="">
+
+                </div>
+                <div class="client__wrapper">
+                    <img src="./assets/icons/google.svg" alt="google">
+                    <img src="./assets/icons/netflix.svg" alt="netflix">
+                    <img src="./assets/icons/microsoft.svg" alt="microsoft">
+                    <img src="./assets/icons/mailBlus.svg" alt="mailBlus">
+                    <img src="./assets/icons/wecon.svg" alt="wagon">
+                </div>
+                <div class="line">
+
+                    <img src="./assets/icons/line.svg" alt="">
+
+                </div>
+            </div>
+        </section>
+        <!-- End of Client section -->
+
+        <!-- Service section -->
+        <section class="service">
+            <div class="container service__wrapper">
+                <div class="layer_service" style="display: none !important;"></div>
+
+                <div class="title">
+                    <h2>Service</h2>
+                    <p>
+                        We offer youth with chances for career development in their practice. We also support a wide
+                        range of services to ensure client satisfaction
+                    </p>
+                </div>
+
+                <div class="service__cards">
+                    <div class="circle_service"></div>
+
+                    <div class="service__card">
+                        <div class="service__card-img">
+                            <img src="./assets/icons/chat_duo.svg" alt="chat_duo">
+                        </div>
+
+                        <div class="service__card-content">
+                            <h3>Send Texts Instantly</h3>
+                            <p>
+                                Financial planning, forecasting and adjusting rapidly with customer demands and budgets.
+                            </p>
+
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="service__card">
+                        <div class="service__card-img">
+                            <img src="./assets/icons/layer_duo.svg" alt="layer_duo">
+                        </div>
+
+                        <div class="service__card-content">
+                            <h3>Send Texts Instantly</h3>
+                            <p>
+                                Financial planning, forecasting and adjusting rapidly with customer demands and budgets.
+                            </p>
+
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="service__card">
+                        <div class="service__card-img">
+                            <img src="./assets/icons/cog-wheel-silhouette.svg" alt="silhouette">
+                            <img class="diagram" src="./assets/icons/diagram.svg" alt="diagram">
+                        </div>
+
+                        <div class="service__card-content">
+                            <h3>Send Texts Instantly</h3>
+                            <p>
+                                Financial planning, forecasting and adjusting rapidly with customer demands and budgets.
+                            </p>
+
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of Service section -->
+
+        <!-- Features section -->
+        <section class="features">
+            <div class="container features__wrapper">
+                <div class="feature__circle1" style="display: none !important;"></div>
+                <div class="feature__circle2" style="display: none !important;"></div>
+                <div class="title">
+                    <h2>Features</h2>
+                    <p>
+                        We provide a number of excellent features that will undoubtedly improve the user experience. We
+                        also provide a better support system
+                    </p>
+                </div>
+
+                <div class="feature__cards">
+                    <div class="feature__card">
+                        <div class="feature__card-img">
+                            <img src="./assets/icons/mail.svg" alt="mail">
+                        </div>
+                        <div class="feature__card-content">
+                            <h3>Encrypted Mail</h3>
+                            <p>A process of encrypting email communications</p>
+                        </div>
+                    </div>
+                    <div class="feature__card">
+                        <div class="feature__card-img">
+                            <img src="./assets/icons/monitor.svg" alt="monitor">
+                        </div>
+                        <div class="feature__card-content">
+                            <h3>Encrypted Mail</h3>
+                            <p>A process of encrypting email communications</p>
+                        </div>
+                    </div>
+                    <div class="feature__card">
+                        <div class="feature__card-img">
+                            <img src="./assets/icons/book.svg" alt="book">
+                        </div>
+                        <div class="feature__card-content">
+                            <h3>Encrypted Mail</h3>
+                            <p>A process of encrypting email communications</p>
+                        </div>
+                    </div>
+                    <div class="feature__card">
+                        <div class="feature__card-img">
+                            <img src="./assets/icons/smartphone.svg" alt="smartphone">
+                        </div>
+                        <div class="feature__card-content">
+                            <h3>Encrypted Mail</h3>
+                            <p>A process of encrypting email communications</p>
+                        </div>
+                    </div>
+                    <div class="feature__card">
+                        <div class="feature__card-img">
+                            <img src="./assets/icons/printer.svg" alt="printer">
+                        </div>
+                        <div class="feature__card-content">
+                            <h3>Encrypted Mail</h3>
+                            <p>A process of encrypting email communications</p>
+                        </div>
+                    </div>
+                    <div class="feature__card">
+                        <div class="feature__card-img">
+                            <img src="./assets/icons/edit-2.svg" alt="edit">
+                        </div>
+                        <div class="feature__card-content">
+                            <h3>Encrypted Mail</h3>
+                            <p>A process of encrypting email communications</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of Features section -->
+
+
+        <!-- About section -->
+        <section class="about">
+            <div class="container about__wrapper">
+                <div class="about__content">
+                    <div class="about__content-image">
+                        <div class="about-image">
+                            <img src="./assets/images/about__image1.jpg" alt="UX/UI image">
+
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="about__content-context">
+                        <h2>
+                            A creative team which builds stunning UI/UX
+                        </h2>
+
+                        <p>
+                            Today, I'd like to show you some incredible Sign Up screen app UI ideas and concepts that
+                            offer a modern user experience.
+                            The most stunning, cutting-edge UI/UX.
+                        </p>
+
+                        <p>
+                            Klean is a free Bootstrap 5 template for multipurpose landing pages. This design is a
+                            perfect choice, carefully curated by <span>ThemeWagon</span>
+                        </p>
+
+                        <a href="#" class="about__btn"><span>Read More</span></a>
+                    </div>
+                </div>
+                <div class="about__content about__content-reverse">
+                    <div class="about__content-image">
+                        <div class="about-image">
+                            <img src="./assets/images/about__image2.jpg" alt="UX/UI image">
+
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="about__content-context">
+                        <h2>
+                            Devoted to defining the cutting edge
+                        </h2>
+
+                        <p>
+                            "This new creation is cutting-edge technology," says the researcher, "whose study originates
+                            from a business
+                            at the forefront of space science."
+                        </p>
+
+                        <p>
+                            Klean is a free Bootstrap 5 template for multipurpose landing pages. This design is a perfect choice, carefully curated by <span>ThemeWagon</span>
+                        </p>
+
+                        <a href="#" class="about__btn"><span>Read More</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of About section -->
+    </main>
+
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <!-- Font awesome js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+        integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

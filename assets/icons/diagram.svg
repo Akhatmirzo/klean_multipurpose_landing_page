@@ -1,0 +1,23 @@
+<svg width="67" height="86" viewBox="0 0 67 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mask Group">
+<mask id="mask0_213_243" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="67" height="86">
+<path id="Union" fill-rule="evenodd" clip-rule="evenodd" d="M25.15 6.01147C25.15 3.16484 27.4577 0.857178 30.3043 0.857178H38.0357C40.8823 0.857178 43.19 3.16483 43.19 6.01146V80.7486C43.19 83.5952 40.8823 85.9029 38.0357 85.9029H30.3043C27.4577 85.9029 25.15 83.5953 25.15 80.7486V6.01147ZM0.081543 21.4746C0.081543 18.6279 2.3892 16.3203 5.23583 16.3203H12.9673C15.8139 16.3203 18.1215 18.6279 18.1215 21.4746V80.7488C18.1215 83.5955 15.8139 85.9031 12.9673 85.9031H5.23583C2.3892 85.9031 0.081543 83.5955 0.081543 80.7488V21.4746ZM55.3727 43.3798C52.5261 43.3798 50.2185 45.6875 50.2185 48.5341V80.7484C50.2185 83.595 52.5261 85.9027 55.3727 85.9027H61.8156C64.6622 85.9027 66.9699 83.595 66.9699 80.7484V48.5341C66.9699 45.6875 64.6622 43.3798 61.8156 43.3798H55.3727Z" fill="url(#paint0_linear_213_243)"/>
+</mask>
+<g mask="url(#mask0_213_243)">
+<g id="Ellipse 34" opacity="0.3" filter="url(#filter0_f_213_243)">
+<ellipse cx="10.9172" cy="68.5" rx="37.6222" ry="36.5" fill="#4E92F9"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_213_243" x="-42.7051" y="16" width="107.245" height="105" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="8" result="effect1_foregroundBlur_213_243"/>
+</filter>
+<linearGradient id="paint0_linear_213_243" x1="59.7236" y1="43.3801" x2="59.7236" y2="85.9031" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8EFBFF"/>
+<stop offset="1" stop-color="#21D4DF"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,145 @@
+.navbar {
+    padding-block: 26.5px;
+
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.80) 14.06%, rgba(255, 255, 255, 0.80) 85.42%, rgba(255, 255, 255, 0.00) 100%);
+    backdrop-filter: blur(55.5px);
+}
+
+.navbar__wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+
+.logo {
+    flex: 1;
+    z-index: 10000;
+}
+
+.navbar__list {
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+
+
+    @include media(0px, 900px) {
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        flex-direction: column;
+        align-items: flex-start;
+        transition: transform 0.3s ease-in;
+        transform: translateX(-100%);
+
+        width: 60%;
+        height: 100vh;
+        padding: 100px 0 0 20px;
+        background: linear-gradient(90deg, rgb(183, 206, 241) 15%, rgba(200, 214, 236, 0.8) 100%);
+    }
+
+    @include media(0px, 500px) {
+        width: 100%;
+    }
+}
+
+.navbar__list > li:last-child {
+    display: none;
+
+    @include media(0px, 900px) {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+}
+
+.navbar__list--active {
+    transform: translateX(0);
+}
+
+.navbar__item {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__item button {
+    position: relative;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+
+    color: $blueGray;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+
+    padding-right: 20px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+
+        width: 13px;
+        height: 13px;
+        background-image: url('../assets/icons/navbar_arrow_down.svg');
+    }
+}
+
+.authentication__btns {
+    flex: 10;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 32px;
+
+    @include media(0px, 900px) {
+        display: none;
+    }
+}
+
+.signin {
+    color: $themePrimary;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.signup {
+    padding: 7px 16px;
+    border-radius: 8px;
+    background: var(--Theme-White, #FFF);
+    /* Soft Shadow */
+    box-shadow: 0px 7px 20px 0px rgba(49, 69, 255, 0.13);
+
+    span {
+        /* Body/.fs -0 Bold */
+        font-size: 16px;
+        font-weight: 700;
+
+        background: linear-gradient(113deg, #C381DB 0%, #4E92F9 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.bars__btn {
+    display: none;
+    z-index: 10000;
+
+    @include media(0px, 900px) {
+        display: block;
+    }
+
+    .fa-bars, .fa-xmark {
+        font-size: 25px;
+    }
+}
